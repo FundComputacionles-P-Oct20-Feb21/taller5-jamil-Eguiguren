@@ -26,8 +26,8 @@ Miniespecificacion o Pseudocódigo:
 
 // salida
 18.Si cantidad >50 Entonces
-19.   Escribir "el valor a cancelar de la planilla de luz con el 15% es:" + quince
+19.   Escribir "el valor a cancelar del ariculo con el 15% es:" + quince
 20. De o contrario
-21.   Escribir "el valor a cancelar de la planilla de luz es:" + multiplicacion
+21.   Escribir "el valor a cancelar del articulo es:" + multiplicacion
 22.  Fin si
 23. Fin
