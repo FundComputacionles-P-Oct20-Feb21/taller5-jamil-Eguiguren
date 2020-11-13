@@ -1,0 +1,33 @@
+Miniespecificacion o Pseudocódigo:
+
+1. Inicio
+// declaro las variables
+2. Prducto, X(30)[{a-z},{A-Z}]
+3. valor, d[0, n]
+4. cantidad, i[0, n]
+5. multiplicacion, d[0, n]
+6. descuento, [0.15]
+7. resta, d[0, n]
+8. quince, d[0, n]
+
+// pido datos por teclado - entradas
+9. Escribir "Ingrese  el nombre del pructo"
+10. Leer producto
+11. Escribir "Ingrese  el valor del producto"
+12. Leer valor
+13. Escribir "Ingrese  la cantidad deseada"
+14. Leer cantidad
+
+
+// proceso
+15. multiplicacion <-- valor * cantidad 
+16. resta <-- mult * descuento
+17. quince <-- resta - mult
+
+// salida
+18.Si cantidad >50 Entonces
+19.   Escribir "el valor a cancelar de la planilla de luz con el 15% es:" + quince
+20. De o contrario
+21.   Escribir "el valor a cancelar de la planilla de luz es:" + multiplicacion
+22.  Fin si
+23. Fin

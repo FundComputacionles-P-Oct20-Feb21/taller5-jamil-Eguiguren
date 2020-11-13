@@ -1,0 +1,45 @@
+
+Miniespecificacion o Pseudocódigo:
+
+1. Inicio
+// declaro las variables
+2. dias, i[0, n]
+3. precio, d[0, n]
+4. descuento1, [0.10]
+5. descuento2, [0.15]
+6. descuento3, [0.20]
+7. multiplicacion, d[0, n]
+8. resta1, d[0, n]
+9. resta2, d[0, n]
+10. resta3, d[0, n]
+11. diezporciento, d[0, n]
+12. quinceporciento, d[0, n]
+13. veinteporciento, d[0, n]
+
+// pido datos por teclado - entradas
+14. Escribir "Ingrese el numero de dias"
+15. Leer dias
+16. Escribir "Ingrese el precio diario de la habitacion"
+17. Leer precio
+
+// proceso
+18. multiplicacion <-- dias * precio 
+19. resta1 <-- mult * descuento
+20. diezprociento <-- resta - mult
+21. resta2 <-- mult * descuento
+22. quinceporciento <-- resta - mult
+23. resta3 <-- mult * descuento
+24. veinteporciento <-- resta - mult
+
+// salida
+25.Si dias >= 15 Entonces
+26. Escribir "el valor a cancelar de la habitacion es:" + veinteporciento
+27.  De lo contrario
+28.   Si dias >= 10  entonces
+29.      Escribir "el valor a cancelar de la habitacion es:" + quinceporciento
+30.        De lo contrario
+31.          Si dias >= 5  entonces
+32.             Escribir "el valor a cancelar de la habitacion es:" + diezprociento
+33.     Fin si
+34.   Fin si
+35. Fin

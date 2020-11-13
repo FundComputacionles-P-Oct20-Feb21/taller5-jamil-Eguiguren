@@ -1,0 +1,32 @@
+
+Miniespecificacion o Pseudocódigo:
+
+1. Inicio
+// declaro las variables
+2. edad, i[0, n]
+3. costo por kilovatio/hora, d[0, n]
+4. mes, d[0, n]
+5. multiplicacion, d[0, n]
+6. descuento, [0.10]
+7. resta, d[0, n]
+8. diezporciento, d[0, n]
+
+// pido datos por teclado - entradas
+9. Escribir "Ingrese la edad"
+10. Leer edad
+11. Escribir "Ingrese la costo por kilovatio/hora"
+12. Leer kilovatio/hora
+13. Escribir "Ingrese el numero de cunsumo de kilovatio al mes"
+14. Leer mes
+// proceso
+15. multiplicacion <-- kilovatio/hora * mes
+16. resta <-- mult * descuento
+17. diezporciento <-- resta - mult
+
+// salida
+18.Si edad >65 Entonce
+19.  Escribir "el valor a cancelar de la planilla de luz con el 10% es:" + diezprociento
+20. De lo contrario
+21.  Escribir "el valor a cancelar de la planilla de luz es:" + multiplicacion
+22. Fin si
+23. Fin
